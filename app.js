@@ -6,7 +6,7 @@ const server = http.createServer((req, res) => {
     const method = req.method;
     if(url === '/'){
         res.write('<html>');
-        res.write('<head><title>Welcome!</title></head>')
+        res.write('<head><title>Welcome!!</title></head>')
         res.write('<body><h1>Welcome to the server!</h1>')
         res.write('<p>Username: <form action ="/create-user" method ="POST"><input type="text" name ="username"><button type ="submit">Send</button></form></h1></p></body>')
         res.write('</html>');
